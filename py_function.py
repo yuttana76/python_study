@@ -16,6 +16,7 @@ my_summary(5,5)
 #Add a function named list_benefits() that returns the following list of strings: "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
 #Add a function named build_sentence(info) which receives a single argument containing a string and returns a sentence starting with the given string and ending with the string " is a benefit of functions!"
 #Run and see all the functions work together!
+print('***** Start Exercixe !!!')
 def list_benefits():
     benefits=[]
     benefits.append('More organized code')
