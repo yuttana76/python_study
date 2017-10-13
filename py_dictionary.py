@@ -19,3 +19,6 @@ print('Update and Add item')
 phonebook.update({'AAA':222})
 phonebook.update({'Jack':555})
 print(phonebook)
+
+if "Jack" in phonebook:
+    print('Hi Jack your phone number is %s' %(phonebook['Jack']) )
