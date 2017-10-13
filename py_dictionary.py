@@ -20,5 +20,10 @@ phonebook.update({'AAA':222})
 phonebook.update({'Jack':555})
 print(phonebook)
 
-if "Jill" in phonebook:
+if "Jack" in phonebook:
     print('Hi Jack your phone number is %s' %(phonebook['Jack']) )
+
+if "Jill-x" in phonebook:
+    print('Jill-x here.')
+else:
+    print('Jill-x not here.')
